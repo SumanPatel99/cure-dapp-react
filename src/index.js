@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { store, history} from './store';
 import { ConnectedRouter } from 'react-router-redux';
 import { AppContainer } from 'react-hot-loader';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <AppContainer>
