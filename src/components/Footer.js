@@ -71,7 +71,7 @@ class Footer extends Component{
                         </Col>
                     </Row>
                     <Row>
-                        <ul>
+                        <ul className="socialicon">
                             <li><SocialIcon url="http://facebook.com" /></li>
                             <li><SocialIcon url="http://twitter.com" /></li>
 

@@ -16,7 +16,7 @@
  background: rgb(13, 193, 193)!important;
  color: white;
 }
-.navbar button{ color: white; font-weight: bold; background-color:rgb(13, 193, 193) ; }
+.navbar button{ color: black; font-weight: bold; background-color: white;border-radius: 21px; border: none ;}
 .navbar-nav{  margin-left: 27%; font-weight: 700;}
 .navimg{width: 100%;}
 
@@ -35,6 +35,8 @@
 footer{  background: rgb(13, 193, 193)!important; margin-top: -74px; color: white; font-weight: 500; }
 footer .container{ padding: 55px; }
 footer li{ list-style: none; } 
+footer .socialicon{margin-left: 70%;}
+footer .socialicon li{display: inline;}
 footer .row{ margin-bottom: 50px;}
 footer input{ border: none; width: 86%; text-align: center; border-radius: 10px; font-weight: 500; padding: 7px; }
 footer button{ background-color: white; border: none; color: black; font-weight: 600; margin-left: -129px; border-radius: 7px; }
