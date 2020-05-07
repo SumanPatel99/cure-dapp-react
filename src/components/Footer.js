@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import { Col,Row,Button,Container,Figure } from 'react-bootstrap'
 import { connect } from 'react-redux'
+import {SocialIcon} from 'react-social-icons'
 
 
 class Footer extends Component{
@@ -71,13 +72,14 @@ class Footer extends Component{
                     </Row>
                     <Row>
                         <ul>
-                            <li><a href="#"><i></i>fb</a></li>
-                            <li><a href="#"><i></i>tw</a></li>
+                            <li><SocialIcon url="http://facebook.com" /></li>
+                            <li><SocialIcon url="http://twitter.com" /></li>
 
-                            <li><a href="#"><i></i>li</a></li>
+                            <li><SocialIcon url="http://youtube.com" /></li>
 
-                            <li><a href="#"><i></i>you</a></li>
-                            <li><a href="#"><i></i>in</a></li>
+                            <li><SocialIcon url="http://twitter.com" /></li>
+
+                            <li><SocialIcon url="http://twitter.com" /></li>
 
 
                         </ul>

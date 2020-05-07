@@ -16,7 +16,7 @@
  background: rgb(13, 193, 193)!important;
  color: white;
 }
-
+.navbar button{ color: white; font-weight: bold; background-color:rgb(13, 193, 193) ; }
 .navbar-nav{  margin-left: 27%; font-weight: 700;}
 .navimg{width: 100%;}
 

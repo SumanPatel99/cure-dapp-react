@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import '../../src/App.css'
 import { connect } from 'react-redux'
 import {  Nav,NavDropdown,Navbar,Media, Button } from 'react-bootstrap'
+import { SocialIcon } from 'react-social-icons'
 
 class Navigation extends Component {
   render(){
@@ -35,6 +36,7 @@ class Navigation extends Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
+
             <NavDropdown title="Our Products" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Distributor</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Manufacturer</NavDropdown.Item>
