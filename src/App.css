@@ -55,21 +55,17 @@ form input{ margin-top: -6px; height: 33px; }
 .stepdiv h2{ letter-spacing: -1px; font-size: 28px;}
 .stepdiv.step3btn{margin-top: 68%;}
 .stepdiv .btn:hover{ background-color: rgb(13, 193, 193);}
-.patientrow .row{     /* border: 1px solid; */
-  padding: 13px;
-  border-radius: 12px;
-  margin-left: 30%;
-  margin-right: 30%;
-  /* margin-top: -7%; */
-  background-color: #e8e5e5;
-  position: relative;
-  bottom: 447px; }
+.patientrow .row{ padding: 9px;}
+.patientrow .patientdiv{  padding:33px;padding-top: 0; border-radius: 12px; margin:-117px 30% 0 30%;  background-color: #e8e5e5;position: relative; bottom: 447px; }
+.patientrow p{ font-weight: 700; text-align: end; margin-bottom: -2px;margin-right: -31px; }
+.patientrow .btn{ background: none; padding: 1px; width: 36%; border:1px solid rgb(29, 177, 177);}
+.patientrow .btn a{ font-weight: 700; color: rgb(13, 193, 193);}
+.patientrow label{ margin-left: 171px; color: grey; font-weight: 600; }
+.patientrow select{ margin-left: 164px;margin-right: -34px; border: none; background: none;font-size: 14px; }
+.patientrow h4{ font-size: 21px; text-align: right; margin-right: -56px; color: rgb(29, 177, 177); margin-top: 21px; }
 .patientrow .mr-3{ width: 78px; height: 78px; background-color: white; padding: 11px; }
 .patientrow input{ width: 100%; border-radius: 14px; border: none; padding: 10px; text-align: center; }
-.patientrow .boximg img{    background: white;
-  /* border: 1px solid; */
-  vertical-align: middle;
-  border-style: none;
-  width: 81px;
-  border-radius: 14px;
-  padding: 6px;}
+.patientrow .boximg img{    background: white; vertical-align: middle; border-style: none; width: 81px; border-radius: 14px; padding: 6px;}
+.findmorediv{ background: #ededf1; padding: 129px; }
+.findmorediv .col-xl-9 input{ width: 70%; margin-left: -15px; border: none; padding: 8px; border-radius: 15px; }
+.findmorediv .col-xl-3 input{width: 115%; padding: 8px; border: none; border-radius: 14px;margin-left: 103px; }
