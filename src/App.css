@@ -69,3 +69,5 @@ form input{ margin-top: -6px; height: 33px; }
 .findmorediv{ background: #ededf1; padding: 129px; }
 .findmorediv .col-xl-9 input{ width: 70%; margin-left: -15px; border: none; padding: 8px; border-radius: 15px; }
 .findmorediv .col-xl-3 input{width: 115%; padding: 8px; border: none; border-radius: 14px;margin-left: 103px; }
+.findmorediv .docdetail{border: 1px solid black;}
+.findmorediv .docprofile{height: 108px; width: 108px;}
